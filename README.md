@@ -3,7 +3,7 @@ Setup a Linux (Ubuntu) VM on Azure to run Node.js with Upstart
 
 *Step-by-step guide*
   
-Setting up an Azure VM with Ubuntu to run Node.js Server  
+Setting up an Azure VM with Ubuntu to run Node.js Server.  
   
 
 *Setup & SSH:*
@@ -47,7 +47,7 @@ Explanations:
 * node runs the node binary executable you just compiled from source, to ensure the compilation was successful
 * sudo make install copies the files you just created from the current directory to their permanent homes, /usr/local/bin and such
 
-*Instal NP*
+*Instal NPM*
 ```shell
 sudo apt-get install nodejs npm
 ```
