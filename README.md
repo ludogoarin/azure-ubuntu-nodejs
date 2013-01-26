@@ -91,6 +91,10 @@ Test Upstart
 start node-upstart.conf
 ```
 Restart your server to make sure your app is running correctly
+```shell
+status node-upstart
+```
+The above command should return something like: node-upstart start/running, process 886
 
 *GitHub Deployment*
 ```shell
